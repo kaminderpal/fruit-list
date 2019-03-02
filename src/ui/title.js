@@ -6,6 +6,6 @@ export const Title = styled.h1`
     margin-top: 20px;
     margin-left: 30px;
     padding: 1px 40px; 
-    background : teal;
-    color : white;
+    background : ${props=>props.theme.primaryBackground};
+    color : ${props=>props.theme.secondaryColor};
 `
