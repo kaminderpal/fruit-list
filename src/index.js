@@ -1,8 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import Home from './containers/home';
+import { createGlobalStyle } from 'styled-components';
 
-ReactDOM.render("Hello", document.getElementById('root'));
+
+const GlobalStyles = createGlobalStyle`
+    html,body{
+        height : 100%
+    }
+`
+const app = (
+    <React.Fragment>
+        <GlobalStyles />
+        <Home />
+    </React.Fragment>
+);
+ReactDOM.render(app, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
