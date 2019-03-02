@@ -11,7 +11,7 @@ const theme = {
     extraSmallScreen : "576px",
     smallScreen : "768px",
     mediumScreen : "992px",
-    largeScreen : "1200px;"
+    largeScreen : "1200px"
 };
 
 const GlobalStyles = createGlobalStyle`
@@ -37,6 +37,9 @@ const GlobalStyles = createGlobalStyle`
     }
     .pr-3{
         padding-right: 1rem;
+    }
+    .w-100{
+        width: 100%;
     }
 `
 const app = (
