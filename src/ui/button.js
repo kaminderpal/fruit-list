@@ -26,8 +26,9 @@ export const Button = styled.button`
         cursor : pointer;
     }
     :hover{
-        background-color: blue;
-        border-color: blue;
+        background-color: ${props=> props.theme.hoverColor};
+        border-color: ${props=> props.theme.hoverColor};
+        box-shadow : 0 .5rem 1rem rgba(0,0,0,.15);
     }
     :focus{
         outline : 0;
