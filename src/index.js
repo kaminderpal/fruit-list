@@ -26,6 +26,18 @@ const GlobalStyles = createGlobalStyle`
         font-weight: 400;
         line-height: 1.25;
     }
+    .d-flex{
+        display :flex;
+    }
+    .mr-3{
+        margin-right: 1rem;
+    }
+    .pb-3{
+        padding-bottom:1rem;
+    }
+    .pr-3{
+        padding-right: 1rem;
+    }
 `
 const app = (
     <Fragment>
