@@ -19,9 +19,29 @@ export class Home extends Component {
    * List fruit lists.
    */
   getFruits = () => {
-    return this.state.list.length && this.state.list.map((item,index) => {
-                                          return <FruitCard key={index} {...item}/>
-                                        }); 
+    return this.state.list.length ? this.state.list.map((item,index) => {
+                                          return <FruitCard key={index}
+                                                            id={index} 
+                                                            {...item} 
+                                                            removeItem = { this.removeItemFromList } 
+                                                  />
+                                        }) : "";
+  }
+  /**
+   * remove given item from list.
+   */
+  removeItemFromList = (e) => {
+    const id = parseInt(e.currentTarget.dataset.id);
+    const { list } = this.state;
+    this.setState( { list : this.filterListById(id,list)  });
+  }
+  /** 
+   * filter the list by id.
+   */
+  filterListById = (id,list) => {
+    return list.filter( (item, index) => {
+      return index !== id;
+    });
   }
   /**
    * Sort the list by ascending price order.

@@ -11,7 +11,8 @@ const theme = {
     extraSmallScreen : "576px",
     smallScreen : "768px",
     mediumScreen : "992px",
-    largeScreen : "1200px"
+    largeScreen : "1200px",
+    hoverColor : "#36bd90"
 };
 
 const GlobalStyles = createGlobalStyle`

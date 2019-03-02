@@ -14,7 +14,9 @@ const FruitCard = ({
     itemName,
     imgSrc,
     price,
-    quantityRemaining
+    quantityRemaining,
+    removeItem,
+    id
 }) => {
   return (
     <Card>
@@ -33,7 +35,7 @@ const FruitCard = ({
             </CardBodyWrapper>
         </CardBody>
         <CardFooter>
-           <Button width="100%" >Remove</Button>
+           <Button width="100%" onClick={removeItem} data-id={id} >Remove</Button>
         </CardFooter>
     </Card>
   )
