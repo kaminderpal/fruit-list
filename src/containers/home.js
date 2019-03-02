@@ -11,9 +11,10 @@ import {Wrapper} from '../ui/wrapper';
 export class Home extends Component {
   state = {list};
   getFruits = () => {
-    return this.state.list.length && this.state.list.map((item,index) => {
-                                            return <FruitCard key={index} {...item}/>
-                                      });
+    return this.state.list.length && this.state.list
+                                            .map((item,index) => {
+                                              return <FruitCard key={index} {...item}/>
+                                            });
   }
   render() {
     return (

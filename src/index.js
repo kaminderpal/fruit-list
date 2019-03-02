@@ -5,7 +5,7 @@ import Home from './containers/home';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const theme = {
-    primaryBackground : "teal",
+    primaryBackground : "#35c796",
     primaryColor : "black",
     secondaryColor : "white",
     extraSmallScreen : "576px",

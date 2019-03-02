@@ -3,7 +3,7 @@ import { Select } from '../ui/select';
 
 const SortByPrice = () => {
   return (
-    <div className="d-flex pr-3 pb-3">
+    <div className="d-flex pb-3">
     <span className="mr-3">Sort by Price: </span>
       <Select>
           <option value="1">Highest</option>

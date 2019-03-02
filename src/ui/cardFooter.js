@@ -1,4 +1,4 @@
 
 import styled from 'styled-components';
 
-export const CardBody = styled.div``;
+export const CardFooter = styled.div``;

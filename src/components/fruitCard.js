@@ -1,8 +1,14 @@
 import React from 'react'
-import {Card} from '../ui/card';
-import {Image} from '../ui/image';
+import { Card } from '../ui/card';
+import { Image } from '../ui/image';
 import { CardBody } from '../ui/cardBody';
 import { Button } from '../ui/button';
+import { CardFooter } from '../ui/cardFooter';
+import { CardTitle } from '../ui/cardTitle';
+import { CardPrice } from '../ui/cardPrice';
+import { CardQuantity } from '../ui/cardQuantity';
+import { CardBodyWrapper } from '../ui/cardBodyWrapper';
+import { CardImageWrapper } from '../ui/cardImage';
 
 const FruitCard = ({
     itemName,
@@ -12,19 +18,23 @@ const FruitCard = ({
 }) => {
   return (
     <Card>
-        <Image src={imgSrc} />
+        <CardImageWrapper>
+            <Image src={imgSrc} width="120px" height="120px" />
+        </CardImageWrapper>
         <CardBody>
-            <p>{itemName}</p>
-            <div className="d-flex">
-                <div>
-                    $ {price}
-                </div>
-                <div>
+            <CardTitle>{itemName}</CardTitle>
+            <CardBodyWrapper>
+                <CardPrice> 
+                    ${price} 
+                </CardPrice>
+                <CardQuantity>
                     {quantityRemaining} In Stock
-                </div>
-            </div>
-            <Button width={`w-100`} >Remove</Button>
+                </CardQuantity>
+            </CardBodyWrapper>
         </CardBody>
+        <CardFooter>
+           <Button width="100%" >Remove</Button>
+        </CardFooter>
     </Card>
   )
 }
