@@ -1,13 +1,13 @@
 import React from 'react'
 import { Select } from '../ui/select';
 
-const SortByPrice = () => {
+const SortByPrice = ({ changePriceOrder }) => {
   return (
     <div className="d-flex pb-3">
     <span className="mr-3">Sort by Price: </span>
-      <Select>
-          <option value="1">Highest</option>
+      <Select onChange={ (e)=> changePriceOrder(e) }>
           <option value="0">Lowest</option>
+          <option value="1">Highest</option>
       </Select>
     </div>
   )
