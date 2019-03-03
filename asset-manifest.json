@@ -1,11 +1,11 @@
 {
-  "main.js": "/fuit-list/static/js/main.d7ae8383.chunk.js",
-  "main.js.map": "/fuit-list/static/js/main.d7ae8383.chunk.js.map",
-  "runtime~main.js": "/fuit-list/static/js/runtime~main.6ea359d4.js",
-  "runtime~main.js.map": "/fuit-list/static/js/runtime~main.6ea359d4.js.map",
-  "static/js/2.efd5d26b.chunk.js": "/fuit-list/static/js/2.efd5d26b.chunk.js",
-  "static/js/2.efd5d26b.chunk.js.map": "/fuit-list/static/js/2.efd5d26b.chunk.js.map",
-  "index.html": "/fuit-list/index.html",
-  "precache-manifest.2eb757943be2747b430fb0fe4268f5b2.js": "/fuit-list/precache-manifest.2eb757943be2747b430fb0fe4268f5b2.js",
-  "service-worker.js": "/fuit-list/service-worker.js"
+  "main.js": "/fruit-list/static/js/main.6089f108.chunk.js",
+  "main.js.map": "/fruit-list/static/js/main.6089f108.chunk.js.map",
+  "runtime~main.js": "/fruit-list/static/js/runtime~main.d4c0a1d1.js",
+  "runtime~main.js.map": "/fruit-list/static/js/runtime~main.d4c0a1d1.js.map",
+  "static/js/2.4908bb10.chunk.js": "/fruit-list/static/js/2.4908bb10.chunk.js",
+  "static/js/2.4908bb10.chunk.js.map": "/fruit-list/static/js/2.4908bb10.chunk.js.map",
+  "index.html": "/fruit-list/index.html",
+  "precache-manifest.26c0977aa5fe4c4e6fc7227700dd06c6.js": "/fruit-list/precache-manifest.26c0977aa5fe4c4e6fc7227700dd06c6.js",
+  "service-worker.js": "/fruit-list/service-worker.js"
 }
