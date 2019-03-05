@@ -87,7 +87,7 @@ export class Home extends Component {
         </Navbar>
         <Section>
           <Container>
-            <Wrapper display="flex" flexWrap="wrap">
+            <Wrapper display="flex" flexWrap="wrap" marginLeft="-1rem" marginRight="-1rem">
             { this.getFruits() }
             </Wrapper>
           </Container>

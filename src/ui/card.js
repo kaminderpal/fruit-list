@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-        flex: 0 0 12rem;
-        position: relative;
+        flex: 1 0 200px;
         word-wrap: break-word;
         background-color: #fff;
         background-clip: border-box;
@@ -23,6 +22,6 @@ export const Card = styled.div`
             max-width : calc(50% - 1rem);
         }
         @media screen and (min-width: ${ props => props.theme.largeScreen }){
-            max-width : calc(25% - 1rem)
+            max-width: calc(21% - 1rem);
         }
 `;
