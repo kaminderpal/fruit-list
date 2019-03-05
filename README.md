@@ -1,6 +1,10 @@
 ## Fruits List
 
 This App is bootstrapped with Create React App.
+Stack
+- Reactjs
+- Styled Components CSS
+- Gh-pages deployment
 
 ## Available Scripts
 
@@ -18,3 +22,7 @@ You will also see any lint errors in the console.
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### ### `npm run deploy`
+
+Build the production ready app and deploy to git hub pages.
